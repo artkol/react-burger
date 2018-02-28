@@ -19,3 +19,4 @@ dist/**
 logs/**
 src_unused
 src_alt
+build
