@@ -25,11 +25,11 @@ class ContactData extends Component {
         valid: false,
         touched: false
       },
-      street: {
+      address: {
         elementType: 'input',
         elementConfig: {
           type: 'text',
-          placeholder: 'Street'
+          placeholder: 'Address'
         },
         value: '',
         validation: {
@@ -38,35 +38,7 @@ class ContactData extends Component {
         valid: false,
         touched: false
       },
-      zipCode: {
-        elementType: 'input',
-        elementConfig: {
-          type: 'text',
-          placeholder: 'ZIP Code'
-        },
-        value: '',
-        validation: {
-          required: true,
-          minLength: 5,
-          maxLength: 5,
-          isNumeric: true
-        },
-        valid: false,
-        touched: false
-      },
-      country: {
-        elementType: 'input',
-        elementConfig: {
-          type: 'text',
-          placeholder: 'Country'
-        },
-        value: '',
-        validation: {
-          required: true
-        },
-        valid: false,
-        touched: false
-      },
+
       email: {
         elementType: 'input',
         elementConfig: {
